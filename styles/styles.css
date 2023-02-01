@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-top: -1%;
+} 
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes fadein2 {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  transform: scale(0.9);
+  max-width: 100%;
+  height: auto;
+  animation: fadein2 2s;
+}
+
+article div img {
+  position: absolute;
+  max-width: 59%;
+  height: auto;
+  right: 13.5%;
+  top: 7.5%;
+}
+
+article img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  cursor: pointer;
+  animation: fadein 3s;
+}
+
+/* styling buttons */
+
+.button1:hover{
+  transform: translate(30px,0);
+  transition: 0.5s;
+}
+
+.button2 {
+  max-width: 22%;
+  height: auto;
+  left: 29%;
+  top: 30%;
+}
+
+.button2:hover {
+  max-width: 20%;
+  height: auto;
+  transition: 1s;
+}
+
+.button3 {
+  max-width: 70%;
+  height: auto;
+  top: 55%;
+  left: 12%;
+}
+
+.button3:hover {
+  max-width: 72%;
+  height: auto;
+  left: 10%;
+  transition: 1s;
+}
+
+.button4 {
+  max-width: 25%;
+  height: auto;
+  top: 6%;
+  left: 43%;
+}
+
+.button4:hover {
+  max-width: 23%;
+  height: auto;
+  top: 8.5%;
+  left: 43%;
+  transition: 1s;
+}
+
+.button5 {
+  max-width: 16%;
+  height: auto;
+  top: 38%;
+  left: 27.5%;
+}
+
+.button5:hover {
+  max-width: 17%;
+  height: auto;
+  top: 38.2%;
+  left: 26.5%;
+  transition: 1s;
+}
+
+.button6 {
+  max-width: 10%;
+  height: auto;
+  top: 39%;
+  left: 46.5%;
+}
+
+.button6:hover {
+  max-width: 8%;
+  height: auto;
+  top: 42%;
+  left: 47.5%;
+  transition: 1s;
+}
+
+.button7 {
+  max-width: 30%;
+  height: auto;
+  top: 13%;
+  left: 48%;
+}
+
+.button7:hover {
+  max-width: 35%;
+  height: auto;
+  top: 10.5%;
+  left: 46%;
+  transition: 1s;
+}
+
+.button8 {
+  max-width: 12.5%;
+  height: auto;
+  top: 26%;
+  left: 28%;
+}
+
+.button8:hover {
+  max-width: 12.5%;
+  height: auto;
+  top: 29%;
+  left: 29.5%;
+  transition: 1s;
+}
+
+.button9 {
+  max-width: 2%;
+  height: auto;
+  top: 60%;
+  left: 38%;
+}
+
+.button9:hover {
+  max-width: 3%;
+  height: auto;
+  top: 57%;
+  left: 37.5%;
+  transition: 1s;
+}
+
+.button10 {
+  max-width: 10%;
+  height: auto;
+  top: 38%;
+  left: 41.5%;
+}
+
+.button10:hover {
+  max-width: 8%;
+  height: auto;
+  top: 39%;
+  left: 42.5%;
+  transition: 1s;
+}
+
+.button11 {
+  max-width: 4%;
+  height: auto;
+  top: 50%;
+  left: 68%;
+}
+
+.button11:hover {
+  max-width: 5%;
+  height: auto;
+  top: 52%;
+  left: 69.5%;
+  transition: 1s;
+}
+
+.button12 {
+  max-width: 10%;
+  height: auto;
+  top: 36%;
+  left: 48%;
+}
+
+.button12:hover {
+  max-width: 8%;
+  height: auto;
+  top: 36.5%;
+  left: 49%;
+  transition: 1s;
+}
+
+.button13 {
+  max-width: 30%;
+  height: auto;
+  top: 5.4%;
+  left: 48%;
+}
+
+.button13:hover {
+  max-width: 35%;
+  height: auto;
+  top: 3%;
+  left: 46%;
+  transition: 1s;
+}
+
+
+
+/* Buttons en achtergrond */
+
+.button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9, .button10, .button11, .button12, .button13, .button14 {
+  display: none;
+}
+
+.button2.show, .button3.show, .button4.show, .button5.show, .button6.show, .button7.show, .button8.show,.button9.show, .button10.show, .button11.show, .button12.show, .button13.show {
+  display: block;
+  animation: fadein 3s;
+}
+
+.button1.hide, .button2.hide, .button3.hide, .button4.hide, .button5.hide, .button6.hide, .button7.hide, .button8.hide, .button9.hide, .button10.hide, .button11.hide, .button12.hide, .button13.hide, .button14.hide {
+  display: none;
+}
+
+.scene1 figure.frame5 img:nth-of-type(5) {
+  margin-top: -3.2%;
+  margin-left: -4%;
+}
+
+.scene1 figure.frame6 img:nth-of-type(6) {
+  width: 112%;
+  margin-top: -6%;
+  margin-left: -6%;
+}
+
+.scene1 figure.frame10 img:nth-of-type(10) {
+  width: 112%;
+  margin-top: -6%;
+  margin-left: -6%;
+}
+
+.scene1 figure.frame12 img:nth-of-type(12) {
+  width: 112%;
+  margin-top: -6%;
+  margin-left: -6%;
+}
+
+.scene1 figure.frame1 img:nth-of-type(2),
+.scene1 figure.frame1 img:nth-of-type(3),
+.scene1 figure.frame1 img:nth-of-type(4),
+.scene1 figure.frame1 img:nth-of-type(5),
+.scene1 figure.frame1 img:nth-of-type(6),
+.scene1 figure.frame1 img:nth-of-type(7),
+.scene1 figure.frame1 img:nth-of-type(8),
+.scene1 figure.frame1 img:nth-of-type(9),
+.scene1 figure.frame1 img:nth-of-type(10),
+.scene1 figure.frame1 img:nth-of-type(11),
+.scene1 figure.frame1 img:nth-of-type(12),
+.scene1 figure.frame1 img:nth-of-type(13),
+.scene1 figure.frame1 img:nth-of-type(14),
+
+.scene1 figure.frame2 img:nth-of-type(1),
+.scene1 figure.frame2 img:nth-of-type(3),
+.scene1 figure.frame2 img:nth-of-type(4),
+.scene1 figure.frame2 img:nth-of-type(5),
+.scene1 figure.frame2 img:nth-of-type(6),
+.scene1 figure.frame2 img:nth-of-type(7),
+.scene1 figure.frame2 img:nth-of-type(8),
+.scene1 figure.frame2 img:nth-of-type(9),
+.scene1 figure.frame2 img:nth-of-type(10),
+.scene1 figure.frame2 img:nth-of-type(11),
+.scene1 figure.frame2 img:nth-of-type(12),
+.scene1 figure.frame2 img:nth-of-type(13),
+.scene1 figure.frame2 img:nth-of-type(14),
+
+.scene1 figure.frame3 img:nth-of-type(1),
+.scene1 figure.frame3 img:nth-of-type(2),
+.scene1 figure.frame3 img:nth-of-type(4),
+.scene1 figure.frame3 img:nth-of-type(5),
+.scene1 figure.frame3 img:nth-of-type(6),
+.scene1 figure.frame3 img:nth-of-type(7),
+.scene1 figure.frame3 img:nth-of-type(8),
+.scene1 figure.frame3 img:nth-of-type(9),
+.scene1 figure.frame3 img:nth-of-type(10),
+.scene1 figure.frame3 img:nth-of-type(11),
+.scene1 figure.frame3 img:nth-of-type(12),
+.scene1 figure.frame3 img:nth-of-type(13),
+.scene1 figure.frame3 img:nth-of-type(14),
+
+.scene1 figure.frame4 img:nth-of-type(1),
+.scene1 figure.frame4 img:nth-of-type(2),
+.scene1 figure.frame4 img:nth-of-type(3),
+.scene1 figure.frame4 img:nth-of-type(5),
+.scene1 figure.frame4 img:nth-of-type(6),
+.scene1 figure.frame4 img:nth-of-type(7),
+.scene1 figure.frame4 img:nth-of-type(8),
+.scene1 figure.frame4 img:nth-of-type(9),
+.scene1 figure.frame4 img:nth-of-type(10),
+.scene1 figure.frame4 img:nth-of-type(11),
+.scene1 figure.frame4 img:nth-of-type(12),
+.scene1 figure.frame4 img:nth-of-type(13),
+.scene1 figure.frame4 img:nth-of-type(14),
+
+.scene1 figure.frame5 img:nth-of-type(1),
+.scene1 figure.frame5 img:nth-of-type(2),
+.scene1 figure.frame5 img:nth-of-type(3),
+.scene1 figure.frame5 img:nth-of-type(4),
+.scene1 figure.frame5 img:nth-of-type(6),
+.scene1 figure.frame5 img:nth-of-type(7),
+.scene1 figure.frame5 img:nth-of-type(8),
+.scene1 figure.frame5 img:nth-of-type(9),
+.scene1 figure.frame5 img:nth-of-type(10),
+.scene1 figure.frame5 img:nth-of-type(11),
+.scene1 figure.frame5 img:nth-of-type(12),
+.scene1 figure.frame5 img:nth-of-type(13),
+.scene1 figure.frame5 img:nth-of-type(14),
+
+.scene1 figure.frame6 img:nth-of-type(1),
+.scene1 figure.frame6 img:nth-of-type(2),
+.scene1 figure.frame6 img:nth-of-type(3),
+.scene1 figure.frame6 img:nth-of-type(4),
+.scene1 figure.frame6 img:nth-of-type(5),
+.scene1 figure.frame6 img:nth-of-type(7),
+.scene1 figure.frame6 img:nth-of-type(8),
+.scene1 figure.frame6 img:nth-of-type(9),
+.scene1 figure.frame6 img:nth-of-type(10),
+.scene1 figure.frame6 img:nth-of-type(11),
+.scene1 figure.frame6 img:nth-of-type(12),
+.scene1 figure.frame6 img:nth-of-type(13),
+.scene1 figure.frame6 img:nth-of-type(14),
+
+.scene1 figure.frame7 img:nth-of-type(1),
+.scene1 figure.frame7 img:nth-of-type(2),
+.scene1 figure.frame7 img:nth-of-type(3),
+.scene1 figure.frame7 img:nth-of-type(4),
+.scene1 figure.frame7 img:nth-of-type(5),
+.scene1 figure.frame7 img:nth-of-type(6),
+.scene1 figure.frame7 img:nth-of-type(8),
+.scene1 figure.frame7 img:nth-of-type(9),
+.scene1 figure.frame7 img:nth-of-type(10),
+.scene1 figure.frame7 img:nth-of-type(11),
+.scene1 figure.frame7 img:nth-of-type(12),
+.scene1 figure.frame7 img:nth-of-type(13),
+.scene1 figure.frame7 img:nth-of-type(14),
+
+.scene1 figure.frame8 img:nth-of-type(1),
+.scene1 figure.frame8 img:nth-of-type(2),
+.scene1 figure.frame8 img:nth-of-type(3),
+.scene1 figure.frame8 img:nth-of-type(4),
+.scene1 figure.frame8 img:nth-of-type(5),
+.scene1 figure.frame8 img:nth-of-type(6),
+.scene1 figure.frame8 img:nth-of-type(7),
+.scene1 figure.frame8 img:nth-of-type(9),
+.scene1 figure.frame8 img:nth-of-type(10),
+.scene1 figure.frame8 img:nth-of-type(11),
+.scene1 figure.frame8 img:nth-of-type(12),
+.scene1 figure.frame8 img:nth-of-type(13),
+.scene1 figure.frame8 img:nth-of-type(14),
+
+.scene1 figure.frame9 img:nth-of-type(1),
+.scene1 figure.frame9 img:nth-of-type(2),
+.scene1 figure.frame9 img:nth-of-type(3),
+.scene1 figure.frame9 img:nth-of-type(4),
+.scene1 figure.frame9 img:nth-of-type(5),
+.scene1 figure.frame9 img:nth-of-type(6),
+.scene1 figure.frame9 img:nth-of-type(7),
+.scene1 figure.frame9 img:nth-of-type(8),
+.scene1 figure.frame9 img:nth-of-type(10),
+.scene1 figure.frame9 img:nth-of-type(11),
+.scene1 figure.frame9 img:nth-of-type(12),
+.scene1 figure.frame9 img:nth-of-type(13),
+.scene1 figure.frame9 img:nth-of-type(14),
+
+.scene1 figure.frame10 img:nth-of-type(1),
+.scene1 figure.frame10 img:nth-of-type(2),
+.scene1 figure.frame10 img:nth-of-type(3),
+.scene1 figure.frame10 img:nth-of-type(4),
+.scene1 figure.frame10 img:nth-of-type(5),
+.scene1 figure.frame10 img:nth-of-type(6),
+.scene1 figure.frame10 img:nth-of-type(7),
+.scene1 figure.frame10 img:nth-of-type(8),
+.scene1 figure.frame10 img:nth-of-type(9),
+.scene1 figure.frame10 img:nth-of-type(11),
+.scene1 figure.frame10 img:nth-of-type(12),
+.scene1 figure.frame10 img:nth-of-type(13),
+.scene1 figure.frame10 img:nth-of-type(14),
+
+.scene1 figure.frame11 img:nth-of-type(1),
+.scene1 figure.frame11 img:nth-of-type(2),
+.scene1 figure.frame11 img:nth-of-type(3),
+.scene1 figure.frame11 img:nth-of-type(4),
+.scene1 figure.frame11 img:nth-of-type(5),
+.scene1 figure.frame11 img:nth-of-type(6),
+.scene1 figure.frame11 img:nth-of-type(7),
+.scene1 figure.frame11 img:nth-of-type(8),
+.scene1 figure.frame11 img:nth-of-type(9),
+.scene1 figure.frame11 img:nth-of-type(10),
+.scene1 figure.frame11 img:nth-of-type(12),
+.scene1 figure.frame11 img:nth-of-type(13),
+.scene1 figure.frame11 img:nth-of-type(14),
+
+.scene1 figure.frame12 img:nth-of-type(1),
+.scene1 figure.frame12 img:nth-of-type(2),
+.scene1 figure.frame12 img:nth-of-type(3),
+.scene1 figure.frame12 img:nth-of-type(4),
+.scene1 figure.frame12 img:nth-of-type(5),
+.scene1 figure.frame12 img:nth-of-type(6),
+.scene1 figure.frame12 img:nth-of-type(7),
+.scene1 figure.frame12 img:nth-of-type(8),
+.scene1 figure.frame12 img:nth-of-type(9),
+.scene1 figure.frame12 img:nth-of-type(10),
+.scene1 figure.frame12 img:nth-of-type(11),
+.scene1 figure.frame12 img:nth-of-type(13),
+.scene1 figure.frame12 img:nth-of-type(14),
+
+.scene1 figure.frame13 img:nth-of-type(1),
+.scene1 figure.frame13 img:nth-of-type(2),
+.scene1 figure.frame13 img:nth-of-type(3),
+.scene1 figure.frame13 img:nth-of-type(4),
+.scene1 figure.frame13 img:nth-of-type(5),
+.scene1 figure.frame13 img:nth-of-type(6),
+.scene1 figure.frame13 img:nth-of-type(7),
+.scene1 figure.frame13 img:nth-of-type(8),
+.scene1 figure.frame13 img:nth-of-type(9),
+.scene1 figure.frame13 img:nth-of-type(10),
+.scene1 figure.frame13 img:nth-of-type(11),
+.scene1 figure.frame13 img:nth-of-type(12),
+.scene1 figure.frame13 img:nth-of-type(14),
+
+.scene1 figure.frame14 img:nth-of-type(1),
+.scene1 figure.frame14 img:nth-of-type(2),
+.scene1 figure.frame14 img:nth-of-type(3),
+.scene1 figure.frame14 img:nth-of-type(4),
+.scene1 figure.frame14 img:nth-of-type(5),
+.scene1 figure.frame14 img:nth-of-type(6),
+.scene1 figure.frame14 img:nth-of-type(7),
+.scene1 figure.frame14 img:nth-of-type(8),
+.scene1 figure.frame14 img:nth-of-type(9),
+.scene1 figure.frame14 img:nth-of-type(10),
+.scene1 figure.frame14 img:nth-of-type(11),
+.scene1 figure.frame14 img:nth-of-type(12),
+.scene1 figure.frame14 img:nth-of-type(13){
+  display: none;
+}
+
+
+.scene1 figure.frame1 img:first-of-type,
+.scene1 figure.frame2 img:nth-of-type(2),
+.scene1 figure.frame3 img:nth-of-type(3),
+.scene1 figure.frame4 img:nth-of-type(4),
+.scene1 figure.frame5 img:nth-of-type(5),
+.scene1 figure.frame6 img:nth-of-type(6),
+.scene1 figure.frame7 img:nth-of-type(7),
+.scene1 figure.frame8 img:nth-of-type(8),
+.scene1 figure.frame9 img:nth-of-type(9),
+.scene1 figure.frame10 img:nth-of-type(10),
+.scene1 figure.frame11 img:nth-of-type(11),
+.scene1 figure.frame12 img:nth-of-type(12),
+.scene1 figure.frame13 img:nth-of-type(13),
+.scene1 figure.frame14 img:nth-of-type(14){
+  display: block;
+}
+
